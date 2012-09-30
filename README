@@ -1,0 +1,7 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=4247
+
+Calling :TabDiff will open each pair of buffers in a vertically split tab and in diff mode. Now you can
+
+vim -c "silent :TabDiff" a A b B c C
+
+To diff a bunch of files at once in different tabs.
